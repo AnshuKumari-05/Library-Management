@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="208.0" prefWidth="354.0" stylesheets="@../../../../resources/common.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.assistant.ui.login.LoginController">
+   <children>
+      <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="42.0" prefWidth="354.0" style="-fx-background-color: black; -fx-text-fill: white;" text="Library Assistant Login" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="41.0" layoutY="58.0" prefHeight="25.0" prefWidth="272.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="41.0" layoutY="104.0" onAction="#handleLoginButtonAction" prefHeight="25.0" prefWidth="272.0" promptText="Password" />
+      <Button layoutX="41.0" layoutY="152.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="33.0" prefWidth="80.0" text="Login" />
+      <Button layoutX="233.0" layoutY="152.0" mnemonicParsing="false" onAction="#handleCancelButtonAction" prefHeight="33.0" prefWidth="80.0" text="Cancel" />
+   </children>
+</AnchorPane>

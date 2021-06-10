@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/apache-commons-codec-1.4.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/apache-commons-codec-1.4.jar/apache-commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/jar_files/jfoenix-8.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/gson-2.2.2.jar/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/jar_files (1)/boxable-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/jar_files (1)/pdfbox-2.0.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../Downloads/apache-commons-codec-1.4.jar.zip!/" recursive="false" />
+  </library>
+</component>
